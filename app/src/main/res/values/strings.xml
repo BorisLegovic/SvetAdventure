@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Svetvincenat Adventure</string>
+    <string name="title_activity_maps">Map</string>
+    <string name ="preference_file_key">com.example.boris.svetadventure</string>
+  <!-- main menu                     -->
+    <string name = "game">GAME</string>
+    <string name="how_to_play_txt">Everyone can participate on this road adventure exploring Svetvinčenat. Just
+    go to the coin location on the Svetvinčenat map and take a picture. After successful photoshoot, the coin will be placed
+        inside your stack. You can choose between 7 cycling and hiking routes, but only the bravest one who collects all 9 coins
+        and in that way saves milady Grimani will be rewarded. Visit Svetvinčenat Tourist board on the main square and pick up your gift!
+    </string>
+    <string name="intro_text">Welcome to Svetvinčenat adventure!
+In this extraordinary story, following  the paths of milady Grimani, you\'ll be taken through mysterious roads and magical forests of Svetvinčenat.
+Collect coins, have fun and save her from the nameless rider who took her from the Castle Morosini Grimani.
+By passing all tasks, meet us at the Svetvinčenat Tourist board where you\'ll be rewarded for your courage!
+Good luck!</string>
+    <string name="svet_adventure_main_name">Svetvinčenat \n Adventure</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="postcard">POSTCARD</string>
+    <string name="workout_park">WORKOUT PARK</string>
+    <!-- main menu     -->
+    <string name="adventure_map">Adventure map</string>
+    <string name="google_app_id">AIzaSyCKGW9bLtVkoSiJLh31lRkR7fNxLGNVS30
+</string>
+    <!-- create postcard -->
+    <string name="new_image">New image</string>
+    <string name="contrast_image">Contrast</string>
+    <string name="move_text">Move text</string>
+    <string name="image_size">Image size</string>
+    <string name="save">Save</string>
+    <string name="hide_text">Hide text</string>
+    <string name="new_postcard">New postcard</string>
+    <string name="write_text">Write text</string>
+    <string name="rotate_left">Rotate left</string>
+    <string name="rotate_right">Rotate right</string>
+    <!-- create postcard -->
+    <string name="exercize_list">Exercize list</string>
+    <string name="how_to_play_sec">How to play?</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+  <string name="select_road">Wählen Sie Karte</string>
+    <string name="game_instructions">Game instructions</string>
+    <string name="image_taken">Image taken</string>
+
+
+
+</resources>

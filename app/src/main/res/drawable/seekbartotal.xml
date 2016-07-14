@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@android:id/background"
+        android:drawable="@drawable/graybar"
+        android:height="35dp"
+        android:gravity ="center"
+        />
+    <item android:id="@android:id/progress">
+        <scale
+            android:drawable="@drawable/seekbar_mod"
+            android:scaleWidth="100%"
+            android:height="35dp" />
+    </item>
+</layer-list>

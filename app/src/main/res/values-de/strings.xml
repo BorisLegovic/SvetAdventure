@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SvetAdventure</string>
+    <string name="title_activity_maps">Karte</string>
+    <string name ="preference_file_key">com.example.boris.svetadventure</string>
+    <string name = "game">SPIEL</string>
+    <string name="how_to_play_txt">Alle dürfen in diesem Abenteuer mitmachen.
+        Wenn Sie auf den Punkt gelangen, wo ist die Münze, dann mussen sie ein einzelnes Foto zu machen. Wenn Sie die Münze erreicht haben, wird sie automatisch für Sie gespeichert.
+        Sie können unter 7 Fahrrad- und Wanderwegen auswählen, aber nur die mutigsten, das heißt jene, die alle 9
+        Münzen gesammelt und somit Milady Grimani gerettet haben, werden belohnt. Ihr Gesckenk wartet auf Sie im
+        Tourismusverband Svetvinčenat, am Hauptplatz!
+    </string>
+    <string name="intro_text">Willkommen im Svetvinčenat Abenteuer!
+In dieser unglaublichen Geschichte werden Sie sich, Milady Grimani folgend, auf geheimen Wegen und in zauberhaften Wäldern um Svetvinčenat bewegen.
+Sammeln Sie die Münzen, vergnügen Sie sich und retten Sie Milady Grimani vor einem namenlosen Reiter, der sie vom Schloss Morosini Griman entführt hat.
+Nachdem Sie alle Aufgaben gelöst haben, besuchen Sie uns im Tourismusverband Svetvinčenat, wo wir Ihr Mut belohnen werden!
+Viel Glück!</string>
+
+    <string name="svet_adventure_main_name">Svetvinčenat \n Adventure</string>
+    <string name="how_to_play">SPIELANLEITUNG</string>
+    <string name="postcard">ERSTELLE EINE ANSICHTSKARTE</string>
+    <string name="workout_park">WORKOUT PARK</string>
+    <!-- main menu     -->
+    <string name="adventure_map">Erlebniskarte</string>
+
+    <!-- create postcard -->
+    <string name="new_image">Neus bild</string>
+    <string name="write_text">Nachricht schreiben</string>
+
+    <string name="contrast_image">Kontrast</string>
+    <string name="move_text">Textverstellung</string>
+    <string name="image_size">Bildgröße</string>
+    <string name="save">Bild speichern</string>
+    <string name="hide_text">Text verstecken</string>
+    <string name="new_postcard">Neue ansichtskarte</string>
+    <string name="rotate_left">Drehung nach links</string>
+    <string name="rotate_right">Drehung nach rechts</string>
+    <!-- create postcard -->
+    <string name="exercize_list">exercize Liste</string>
+    <string name="how_to_play_sec">Spielanleitung?</string>
+    <string name="previous">Früher</string>
+    <string name="next">Nächster</string>
+    <string name="done">Erledigt</string>
+    <string name="select_road">Izaberi rutu</string>
+    <string name="game_instructions">Spielanleitung</string>
+    <string name="image_taken">Bild genommen</string>
+
+</resources>

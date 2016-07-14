@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SvetAdventure</string>
+    <string name="title_activity_maps">Map</string>
+    <string name ="preference_file_key">com.example.boris.svetadventure</string>
+    <string name = "game">IGRA</string>
+    <string name="how_to_play_txt">Svi mogu sudjelovati u ovoj avanturi istražujući Svetvinčenat.
+        Da biste počeli igrat, samo otvorite Mape, te pri dolasku na lokaciju s novčićem, okinite fotografiju. Novčić će biti pohranjen u kovčeg s blagom.
+        Možete birati između 7 biciklističkih i pješačkih staza, ali samo će najhrabriji koji skupe svih 9 novčića
+        i na taj način spase miledi Grimani, biti nagrađeni. Poklon vas čeka u Turističkoj zajednici Općine Svetvinčenat, na glavnom trgu!
+    </string>
+    <string name="intro_text">Dobrodošli u Svetvinčenat avanturu!
+U ovoj nevjerojatnoj priči. slijedeći tragove miledi Grimani, biti ćete odvedeni kroz tajnovite puteve i magične šume Svetvinčenta.
+Skupljajte novčiće, zabavite se i spasite ju od bezimenog jahača koji ju je oteo iz kaštela Morosini Grimani.
+Po ispunjenju svih zadataka, pronađite nas u Turističkoj zajednici Svetvinčenat gdje će vaša hrabrost biti nagrađena!
+Sretno!</string>
+
+    <string name="svet_adventure_main_name">Svetvinčenat \n Adventure</string>
+    <string name="how_to_play">KAKO IGRATI</string>
+    <string name="postcard">NAPRAVI RAZGLEDNICU</string>
+    <string name="workout_park">WORKOUT PARK</string>
+    <!-- main menu     -->
+    <string name="adventure_map">Avanturistička karta</string>
+
+    <!-- create postcard -->
+    <string name="new_image">Nova slika</string>
+    <string name="write_text">Napiši poruku</string>
+
+    <string name="contrast_image">Kontrast</string>
+    <string name="move_text">Pomicanje teksta</string>
+    <string name="image_size">Veličina slike</string>
+    <string name="save">Spremi sliku</string>
+    <string name="hide_text">Sakrij text</string>
+    <string name="new_postcard">Nova razglednica</string>
+    <string name="rotate_left">Rotiraj lijevo</string>
+    <string name="rotate_right">Rotiraj desno</string>
+    <!-- create postcard -->
+    <string name="exercize_list">Lista vježbi</string>
+    <string name="how_to_play_sec">Kako igrati?</string>
+    <string name="previous">Prijašnja</string>
+    <string name="next">Sljedeća</string>
+    <string name="done">Spremi</string>
+    <string name="select_road">Izaberi rutu</string>
+    <string name="game_instructions">Upute za igru</string>
+    <string name="image_taken">Fotografija pohranjena</string>
+
+</resources>

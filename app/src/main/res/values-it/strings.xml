@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Svetvincenat Adventure</string>
+    <string name="title_activity_maps">Carta</string>
+    <string name ="preference_file_key">com.example.boris.svetadventure</string>
+    <!-- main menu                     -->
+    <string name = "game">GIOCO</string>
+    <string name="how_to_play_txt">Tutti possono partecipare su questa strada avventuristica e esplorare Svetvinčenat.
+        Tutto quello che bisogna fare, e andare alla posizione della moneta e scattare la fotto.
+        Dopo lo scatto fotografico successivo, la moneta sarà inserita
+        all\'interno del vostro stack. Si può scegliere tra 7 piste ciclabili e pedonali, ma solo quelli più coraggiosi che raccoglierano tutte le 9 monete
+        e in questo modo salverano Milady Grimani, saràno ricompensati. Visitate il bordo turistico Svetvinčenat sulla piazza principale e ritirate i vostri regali!
+    </string>
+    <string name="intro_text">Benvenuti a Svetvinčenat avventura!
+        In questa straordinaria storia, seguendo i sentieri di milady Grimani, sarete presi attraverso strade misteriose e magiche foreste di Svetvinčenat.
+        Raccogli le monete, divertiti e salva la dal cavaliere senza nome che la portò dal Castello Morosini Grimani.
+        Passando tutti i compiti, visita bordo turistico Svetvinčenat sulla piazza principale e sarai ricompensato per il tuo coraggio!
+        In bocca al lupo!</string>
+    <string name="svet_adventure_main_name">Svetvinčenat \n Adventure</string>
+    <string name="how_to_play">ISTRUZIONI</string>
+    <string name="postcard">CARTOLINA</string>
+    <string name="workout_park">WORKOUT PARK</string>
+    <!-- main menu     -->
+    <string name="adventure_map">Mapa avanturistica</string>
+    <string name="google_app_id">AIzaSyCKGW9bLtVkoSiJLh31lRkR7fNxLGNVS30
+    </string>
+    <!-- create postcard -->
+    <string name="new_image">Immagine nuova</string>
+    <string name="write_text"></string>
+
+    <string name="contrast_image">Contrasto</string>
+    <string name="move_text">Muovi testo</string>
+    <string name="image_size">Dimensione immagine</string>
+    <string name="save">Salva</string>
+    <string name="hide_text">Cancella testo</string>
+    <string name="new_postcard">Nuova cartolina</string>
+    <string name="rotate_left">Ruota a sinistra</string>
+    <string name="rotate_right">Ruota a destra</string>
+    <!-- create postcard -->
+    <string name="exercize_list">Lista esercizi</string>
+    <string name="how_to_play_sec">Come giocare?</string>
+    <string name="previous">Precedente</string>
+    <string name="next">Prossimo</string>
+    <string name="done">Fatto</string>
+    <string name="select_road">Selezionare mappa</string>
+    <string name="game_instructions">Istruzioni gioco</string>
+    <string name="image_taken">Immagine scattata </string>
+
+
+
+</resources>

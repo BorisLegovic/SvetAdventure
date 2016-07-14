@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/delete_shared">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="5"
+                android:id="@+id/first_instruction_layout"
+                android:visibility="visible">
+
+                <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:src="@drawable/first_inst"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView37" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Maps Activity shows all the cycle roads around Svetvincenat. You can scroll map and find your ideal route. On right upper corner button press, Your location will be displayed on the map. Make sure Your location services are enabled."
+                    android:id="@+id/textView4"
+                    android:layout_weight="8" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/second_instructions"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:src="@drawable/sec_inst"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView38" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="To acquire gift, You have to go on gift location like shown in the picture."
+                    android:id="@+id/textView32"
+                    android:layout_weight="7.17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/third_instructions"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:src="@drawable/third_inst"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView27" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="After getting on gift location, use the camera button to launch camera and take a photo of surrounding nature. After You shoot the picture the gift will be set in stack."
+                    android:id="@+id/textView34"
+                    android:layout_weight="7.17" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/forth_instruction"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:src="@drawable/forth_inst"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView39" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="In the right upper corner the gift icon shows the number of gifts acquired."
+                    android:id="@+id/textView36"
+                    android:layout_weight="7.17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/fifth_instructions"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:layout_marginTop="9dp"
+                    android:layout_width="fill_parent"
+                    android:src="@drawable/five_inst"
+                    android:layout_height="300dp"
+                    android:id="@+id/imageView40" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="9dp"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="In the left upper corner, the map button allows ou to swap beetween map types."
+                    android:id="@+id/textView38"
+                    android:layout_weight="7.17" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

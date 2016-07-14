@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/popup"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:animateLayoutChanges="true"
+    >
+
+    <ImageView
+        android:animateLayoutChanges="true"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/changedimage"
+        android:background="@drawable/svetrazg3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="30dp"
+        android:layout_height="40dp"
+        android:textColor="@color/bluemain"
+        android:text="@string/previous"
+        android:id="@+id/left_id"
+        android:layout_alignStart="@+id/changedimage"
+        android:layout_below="@+id/changedimage">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:textColor="@color/bluemain"
+        android:text="@string/next"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/changedimage"
+        android:layout_below="@+id/changedimage"
+        android:id="@+id/right_id">
+
+
+    </TextView>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="60dp"
+        android:text="@string/done"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="@color/bluemain"
+        android:id="@+id/done_id"
+        android:layout_below="@+id/changedimage"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+</LinearLayout>
+
+

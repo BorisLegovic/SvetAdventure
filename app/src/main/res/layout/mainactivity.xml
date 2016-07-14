@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffff">
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/svetiback"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="200dp" android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:id="@+id/workoutparkid"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_above="@+id/yourstackid"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/workoutparktext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9dp"
+                android:text="@string/workout_park"
+                android:textColor="#ffffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/questiomarkimg"
+                android:layout_width="20dp"
+                android:src="@drawable/workoutpark"
+                android:layout_height="25dp"
+                android:layout_marginRight="5dp"
+                android:layout_above="@+id/workoutparktext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" /><![CDATA[
+
+
+
+
+        ImageView>
+
+
+
+        ]]>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/yourstackid"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/test_button_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9dp"
+                android:text="@string/how_to_play"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/test_button_image"
+                android:layout_width="20dp"
+                android:src="@drawable/things"
+                android:layout_height="25dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_above="@+id/test_button_text2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" /><![CDATA[
+        ImageView>
+
+    ]]>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="200dp" android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:id="@+id/POSTCARD"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_above="@+id/workoutparkid"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/svetvincenattext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="9dp"
+                android:text="@string/postcard"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/svetimage"
+                android:layout_width="25dp"
+                android:src="@drawable/posticonsmall"
+                android:layout_height="20dp"
+                android:layout_above="@+id/svetvincenattext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" /><![CDATA[
+
+
+        ImageView>
+
+
+        ]]>
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="200dp" android:layout_height="50dp"
+            android:background="@drawable/buttons"
+            android:id="@+id/townshipid"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_above="@+id/POSTCARD"
+            android:layout_alignStart="@+id/linearLayout"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/townhsiptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textSize="9dp"
+                android:text="@string/game"
+                android:textColor="#ffffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp" />
+
+            <ImageView
+                android:id="@+id/svetvincenatimg"
+                android:layout_width="35dp"
+                android:src="@drawable/tresurefinal"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="35dp"
+                android:layout_above="@+id/townhsiptext"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" /><![CDATA[
+        ImageView>
+
+    ]]>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="5dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout"></LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="26dp"
+            android:text="@string/svet_adventure_main_name"
+            android:layout_marginBottom="9dp"
+            android:gravity="center"
+            android:id="@+id/textView27"
+            android:layout_marginTop="53dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/intro_text"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView28"
+            android:textSize="12dp"
+            android:layout_marginBottom="9dp"
+            android:textColor="#ffffff"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/textView27"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <ImageView
+            android:src="@drawable/svetlogo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/icon_main"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/textView27"
+            android:layout_toStartOf="@+id/textView27" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
